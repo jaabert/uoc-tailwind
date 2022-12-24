@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stoner Rock | tickets</title>
+    <link rel="stylesheet" href="scss/styles.scss">
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <include src="./views/navbar_tickets.html"></include>
+    <div class="container py-3 py-md-5 mx-auto">
+      <div class="row mb-3 mb-md-5">
+        <h1 class="text-center mb-3 mt-3 mt-md-5">Entradas a la venta!</h1>
+        <p class="lead text-center">
+          Aforo limitado. No te quedes sin entrada!
+        </p>
+      </div>
+      <div class="row mb-3 mb-md-5 justify-content-center">
+        <div class="col-12 col-md-6">
+          <include src="./views/form-tickets.html"></include>
+        </div>
+      </div>
+    </div>
+    <include src="./views/footer.html"></include>
+  </body>
+</html>
