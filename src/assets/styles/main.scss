@@ -1,17 +1,5 @@
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+
 @tailwind base;
 @tailwind components;
-
-@import "variables";
-
-/**
- * Import npm dependencies
- * see: https://v2.parceljs.org/features/module-resolution/
- * see commented examples below
- */
-
-// @import "some-node-module";
-// @import "@some-company/some-node-module";
-@import "npm:@fortawesome/fontawesome-free/css/all.css";
-// @import "utils/tools";
-
 @tailwind utilities;
