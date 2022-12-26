@@ -7,22 +7,13 @@
     <link rel="stylesheet" href="./assets/styles/main.scss">
     <script type="module" src="./assets/scripts/main.js"></script>
   </head>
-  <!--
-  row 
-  band-area 
-  my-md-5
-  mb-md-5
-  py-md-5 
-  gx-3 
-  gy-5 
-  -->
   <body>
     <include src="./views/navbar.html"></include>
-    <div class="container py-3 py-md-5 mx-auto">
-      <div class="row mb-3 mb-md-5">
-        <h1 class="text-center my-3 my-md-5">La Banda</h1>
+    <div class="container mx-auto py-3 md:py-5">
+      <div class="flex flex-wrap justify-center mb-3 md:mb-5">
+        <h1 class="text-center my-3 md:my-5">La Banda</h1>
       </div>
-      <div class="band-area gx-3 gy-5 mb-3 mb-md-5">
+      <div class="flex flex-wrap mb-6 md:mb-5 gap-x-24 gap-y-9">
         <include src="./views/band-member.html"></include>
         <include src="views/band-member.html"></include>
         <include src="views/band-member.html"></include>
