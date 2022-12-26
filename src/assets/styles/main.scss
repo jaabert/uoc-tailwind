@@ -11,7 +11,7 @@
 
 // @import "some-node-module";
 // @import "@some-company/some-node-module";
-
-@import "utils/tools";
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+// @import "utils/tools";
 
 @tailwind utilities;

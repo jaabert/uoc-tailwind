@@ -1,5 +1,7 @@
+/*Possibly don´t needed anymore !!*/
 
-/** RESPONSIVE LAYOUT TOOLING **/
+
+/** RESPONSIVE LAYOUT TOOLING /
 @mixin tablet {
   @media (min-width: $tablet) {
     @content;
@@ -17,16 +19,11 @@
     @content;
   }
 }
-
-/** SUPPORTING GRID MIXIN **/
+**
+/** SUPPORTING GRID MIXIN *
 @mixin grid {
   @supports (display: grid){
     @content;
   }
 }
-
-
-/** ICONS and Graphic 3rd party resources */
-.fa-twitter {
-  color: $color__twitter;
-}
+*/
