@@ -4,11 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stoner Rock | tickets</title>
-    <link rel="stylesheet" href="scss/styles.scss">
-    <script type="module" src="js/main.js"></script>
+    <link rel="stylesheet" href="assets/styles/main.scss">
+    <script type="module" src="assets/scripts/main.js"></script>
   </head>
+  <!--
+  row 
+  col-12 
+  col-md-6
+  lead
+  py-md-5 
+  mb-md-5
+  mt-md-5
+  -->
   <body>
-    <include src="./views/navbar_tickets.html"></include>
+    <include src="./views/navbar.html"></include>
     <div class="container py-3 py-md-5 mx-auto">
       <div class="row mb-3 mb-md-5">
         <h1 class="text-center mb-3 mt-3 mt-md-5">Entradas a la venta!</h1>
@@ -16,12 +25,12 @@
           Aforo limitado. No te quedes sin entrada!
         </p>
       </div>
-      <div class="row mb-3 mb-md-5 justify-content-center">
+      <div class="row mb-3 mb-md-5 justify-center">
         <div class="col-12 col-md-6">
-          <include src="./views/form-tickets.html"></include>
+          <include src="views/form-tickets.html"></include>
         </div>
       </div>
     </div>
-    <include src="./views/footer.html"></include>
+    <include src="views/footer.html"></include>
   </body>
 </html>

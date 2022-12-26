@@ -1,0 +1,32 @@
+
+/** RESPONSIVE LAYOUT TOOLING **/
+@mixin tablet {
+  @media (min-width: $tablet) {
+    @content;
+  }
+} 
+
+@mixin laptop { 
+  @media (min-width: $laptop) {
+    @content;
+  }
+}
+
+@mixin desktop { 
+  @media (min-width: $desktop) {
+    @content;
+  }
+}
+
+/** SUPPORTING GRID MIXIN **/
+@mixin grid {
+  @supports (display: grid){
+    @content;
+  }
+}
+
+
+/** ICONS and Graphic 3rd party resources */
+.fa-twitter {
+  color: $color__twitter;
+}

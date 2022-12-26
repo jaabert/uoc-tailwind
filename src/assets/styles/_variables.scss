@@ -1,12 +1,27 @@
 @use "sass:color";
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol";
-$font-family-serif: "Georgia", "Times New Roman", serif;
+/** COLORS PALETTE **/
+$color__black: #030303;
+$color__white: #f3f3f3;
+$color__grey: rgb(199, 197, 197);
+$color__grey__dark: color.scale($color__grey, $lightness: -50%); 
+$color__orange: #ee7b0f;
+$color__orange--active: color.scale($color__orange, $lightness: 40%);
+$color__twitter: rgb(30, 30, 132);
 
-$uoc-corporate: #000078;
-$uoc-masterbrand: #73edff;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+/** BREAKPOINTS: SAME AS BOOTSTRAP RANGES **/
+$tablet: 768px; // md bootstrap
+$laptop: 1200px; //xl bootstrap
+$desktop: 1400px; //xxl bootstrap
 
-$mqMinWidth: 420px;
+/** TYPO WEIGTHS **/
+$font-weights:(
+ "light": 300,
+ "regular": 400,
+ "medium": 500,
+ "bold": 800
+);
+
+@function weight($weight-name){
+    @return map-get($font-weights, $weight-name)
+}

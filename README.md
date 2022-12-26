@@ -8,7 +8,7 @@ Playing whit Tailwind
 - Aplicarlos de forma coherente realizando una revisión crítica de la PEC 2.
 - (DONE) Instalar y configurar correctamente Tailwind dentro del entorno de UOC Boilerplate.
 - Recrear dos págines de la PEC 2 reescribiendo el HTML y CSS para que sigan el formato Utility-first CSS.
-- Publicar el repositorio en GitHub y realizar un deployment en Netlify.
+- (DONE) Publicar el repositorio en GitHub y realizar un deployment en Netlify.
 
 # Descripción
 
@@ -20,7 +20,7 @@ En la parte de desarrollo:
 
 - El objetivo de esta PEC es recrear dos de las páginas que desarrollaste en la PEC 2, pero siguiendo el paradigma de Atomic CSS y usando la libería de utilidades Tailwind. No se trata de realizar mejoras en el diseño o el contenido del web sino reescribir las partes de código necesarias.
 
-- Puedes escoger las dos páginas que prefieras, y sólo debes incluír estas dos páginas. En caso que no hagas la página de portada, puedes incluír un index.html sencillo, con enlaces o redirección hacia las páginas que realizaste, o llamar index.html a una de las páginas que hayas realizado.
+- (DONE) Puedes escoger las dos páginas que prefieras, y sólo debes incluír estas dos páginas. En caso que no hagas la página de portada, puedes incluír un index.html sencillo, con enlaces o redirección hacia las páginas que realizaste, o llamar index.html a una de las páginas que hayas realizado.
 
 - RWD. Las páginas que rehagas deberán seguir siendo perfectamente responsive.
 
@@ -29,6 +29,7 @@ En la parte de desarrollo:
 - (DONE) En caso que en la PEC 2 utilizaras componentes de Bootstrap que requieran JavaScript, no es necesario que reescribas la parte de JS necesaria para que funcione correctamente (por ejemplo, si usaste un navbar, sólo debes esconder el menú desktop y mostrar el ícono de la hamburguesa, pero no es necesario que en hacer clic se despliegue o repliegue el menú).
 
 - Deberás extraer un mínimo de 2 clases con @apply, como se explica en la documentación de Tailwind.
+
 - (DONE) También deberás extraer un mínimo de 2 componentes con posthtml-include (que no sean ni el header ni el footer, si consideras oportuno extraerlos y/o ya lo realizaste en la PEC anterior), como ya vimos en el módulo 1.
 
 # Documentación
