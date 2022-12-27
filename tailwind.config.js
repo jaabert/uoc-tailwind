@@ -17,13 +17,17 @@ module.exports = {
       transparent: "transparent",
       current: "currentColor",
       black: "#030303",
+      blackText: "#212529",
+      ultrawhite: "#ffffff",
       white: "#f3f3f3",
       grey: "#c7c5c5",
       greyDark: "#dee2e6",
+      greyForm: "#6c757d",
       orange: "#ee7b0f",
       orangeActive: "#f6b06e",
       blue: "#0d6efd",
       blueActive: "#0b5ed7",
+      blueForm: "#86b7fe",
     },
     screens: {
       md: "768px",
@@ -47,6 +51,10 @@ module.exports = {
       spacing: {
         18: "18px",
         312: ".3125rem",
+      },
+      boxShadow: {
+        "3xl": "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
+        formShadow: "0 0 0 .25rem #0d6efd40",
       },
     },
   },
