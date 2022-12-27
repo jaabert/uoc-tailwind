@@ -7,7 +7,7 @@ Playing whit Tailwind
 - Elegir criterios de desarrollo adecuados al tipo de encargo.
 - Aplicarlos de forma coherente realizando una revisión crítica de la PEC 2.
 - (DONE) Instalar y configurar correctamente Tailwind dentro del entorno de UOC Boilerplate.
-- Recrear dos págines de la PEC 2 reescribiendo el HTML y CSS para que sigan el formato Utility-first CSS.
+- (DONE) Recrear dos págines de la PEC 2 reescribiendo el HTML y CSS para que sigan el formato Utility-first CSS.
 - (DONE) Publicar el repositorio en GitHub y realizar un deployment en Netlify.
 
 # Descripción
@@ -18,13 +18,13 @@ En la parte de desarrollo:
 
 - (DONE) Deberás partir de un nuevo proyecto basado en UOC Boilerplate e instalar y configurar Tailwind v3. En este proyecto no debes instalar Bootstrap o Stylelint.
 
-- El objetivo de esta PEC es recrear dos de las páginas que desarrollaste en la PEC 2, pero siguiendo el paradigma de Atomic CSS y usando la libería de utilidades Tailwind. No se trata de realizar mejoras en el diseño o el contenido del web sino reescribir las partes de código necesarias.
+- (DONE) El objetivo de esta PEC es recrear dos de las páginas que desarrollaste en la PEC 2, pero siguiendo el paradigma de Atomic CSS y usando la libería de utilidades Tailwind. No se trata de realizar mejoras en el diseño o el contenido del web sino reescribir las partes de código necesarias.
 
 - (DONE) Puedes escoger las dos páginas que prefieras, y sólo debes incluír estas dos páginas. En caso que no hagas la página de portada, puedes incluír un index.html sencillo, con enlaces o redirección hacia las páginas que realizaste, o llamar index.html a una de las páginas que hayas realizado.
 
 - RWD. Las páginas que rehagas deberán seguir siendo perfectamente responsive.
 
-- Deberás configurar Tailwind para que se generen las utilidades que necesiters: por ejemplo, para configurar los colores o tipografías que usaste.
+- (DONE) Deberás configurar Tailwind para que se generen las utilidades que necesiters: por ejemplo, para configurar los colores o tipografías que usaste.
 
 - (DONE) En caso que en la PEC 2 utilizaras componentes de Bootstrap que requieran JavaScript, no es necesario que reescribas la parte de JS necesaria para que funcione correctamente (por ejemplo, si usaste un navbar, sólo debes esconder el menú desktop y mostrar el ícono de la hamburguesa, pero no es necesario que en hacer clic se despliegue o repliegue el menú).
 

@@ -12,6 +12,7 @@ module.exports = {
       "4/25xl": "2.5rem",
       "5xl": "3.052rem",
       175: "1.75rem",
+      2: "2rem",
     },
     colors: {
       transparent: "transparent",
@@ -50,6 +51,7 @@ module.exports = {
       },
       spacing: {
         18: "18px",
+        24: "24px",
         312: ".3125rem",
       },
       boxShadow: {
