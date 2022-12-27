@@ -22,13 +22,13 @@ En la parte de desarrollo:
 
 - (DONE) Puedes escoger las dos páginas que prefieras, y sólo debes incluír estas dos páginas. En caso que no hagas la página de portada, puedes incluír un index.html sencillo, con enlaces o redirección hacia las páginas que realizaste, o llamar index.html a una de las páginas que hayas realizado.
 
-- RWD. Las páginas que rehagas deberán seguir siendo perfectamente responsive.
+- (DONE) RWD. Las páginas que rehagas deberán seguir siendo perfectamente responsive.
 
 - (DONE) Deberás configurar Tailwind para que se generen las utilidades que necesiters: por ejemplo, para configurar los colores o tipografías que usaste.
 
 - (DONE) En caso que en la PEC 2 utilizaras componentes de Bootstrap que requieran JavaScript, no es necesario que reescribas la parte de JS necesaria para que funcione correctamente (por ejemplo, si usaste un navbar, sólo debes esconder el menú desktop y mostrar el ícono de la hamburguesa, pero no es necesario que en hacer clic se despliegue o repliegue el menú).
 
-- Deberás extraer un mínimo de 2 clases con @apply, como se explica en la documentación de Tailwind.
+- (DONE) Deberás extraer un mínimo de 2 clases con @apply, como se explica en la documentación de Tailwind.
 
 - (DONE) También deberás extraer un mínimo de 2 componentes con posthtml-include (que no sean ni el header ni el footer, si consideras oportuno extraerlos y/o ya lo realizaste en la PEC anterior), como ya vimos en el módulo 1.
 

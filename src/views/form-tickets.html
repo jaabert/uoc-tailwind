@@ -1,22 +1,22 @@
 <form class="border-b border-greyDark px-1" name="tickets" method="POST" netlify>
     <div class="flex flex-col mb-4">
       <label class="mb-2" for="name">Nombre</label>
-      <input class="px-3 py-2 rounded-md text-blackText bg-ultrawhite border border-grey focus:border-blueForm focus:shadow-formShadow focus:outline-0 " required type="text" id="name" aria-describedby="name">
+      <input class="form-input" required type="text" id="name" aria-describedby="name">
     </div>
     <div class="flex flex-col mb-4">
       <label class="mb-2" for="exampleInputEmail1">Email</label>
-      <input class="px-3 py-2 rounded-md text-blackText bg-ultrawhite border border-grey focus:border-blueForm focus:shadow-formShadow focus:outline-0 "required type="email" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <input class="form-input" required type="email" id="exampleInputEmail1" aria-describedby="emailHelp">
       <div id="emailHelp" class="mt-1 text-sm text-greyForm">No compartiremos tu email con nadie.</div>
     </div>
     <div class="flex flex-col mb-4">
       <label class="mb-2" for="phone">Teléfono</label>
-      <input class="px-3 py-2 rounded-md text-blackText bg-ultrawhite border border-grey focus:border-blueForm focus:shadow-formShadow focus:outline-0 " required type="text" id="phone" aria-describedby="phone">
+      <input class="form-input" required type="text" id="phone" aria-describedby="phone">
       <div class="mt-1 text-sm text-greyForm" id="phoneHelp">Tampoco compartiremos tu teléfono.</div>
 
     </div>
     <div class="flex flex-col mb-4">
       <label class="mb-2" for="town">Población</label>
-      <input class="px-3 py-2 rounded-md text-blackText bg-ultrawhite border border-grey focus:border-blueForm focus:shadow-formShadow focus:outline-0 " type="text" id="town" aria-describedby="town">
+      <input class="form-input" type="text" id="town" aria-describedby="town">
     </div>
     <div class="flex flex-row mb-12">
       <div class="w-1/2 mr-3">
@@ -37,6 +37,6 @@
       </div>
     </div>
     <div class="text-center mb-12">
-      <button class="rounded-md px-6 py-2 text-xl text-white bg-blue hover:bg-blueActive focus:bg-blueActive" type="submit">Comprar</button>
+      <button class="form-btn" type="submit">Comprar</button>
     </div>
   </form>
