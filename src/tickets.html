@@ -7,29 +7,21 @@
     <link rel="stylesheet" href="assets/styles/main.scss">
     <script type="module" src="assets/scripts/main.js"></script>
   </head>
-  <!--
-  col-12 
-  col-md-6
-  lead
-  py-md-5 
-  mb-md-5
-  mt-md-5
-  -->
   <body>
     <include src="./views/navbar.html"></include>
-    <div class="container py-3 py-md-5 mx-auto">
-      <div class="flex flex-wrap mb-3 mb-md-5">
-        <h1 class="text-center mb-3 mt-3 mt-md-5">Entradas a la venta!</h1>
-        <p class="lead text-center">
+    <div class="container py-4 md:py-12 mx-auto">
+      <div class="flex flex-col mb-4 md:mb-12">
+        <h1 class="w-full mb-3 mt-4 md:mt-12 text-center  text-4/25xl">Entradas a la venta!</h1>
+        <p class="w-full text-center text-xl font-light mb-4">
           Aforo limitado. No te quedes sin entrada!
         </p>
       </div>
-      <div class="flex flex-wrap mb-3 mb-md-5 justify-center">
-        <div class="col-12 col-md-6">
-          <include src="views/form-tickets.html"></include>
+      <div class="flex justify-center mb-4 md:mb-12">
+        <div class="w-full md:w-1/2">
+          <include src="./views/form-tickets.html"></include>
         </div>
       </div>
     </div>
-    <include src="views/footer.html"></include>
+    <include src="./views/footer.html"></include>
   </body>
 </html>
